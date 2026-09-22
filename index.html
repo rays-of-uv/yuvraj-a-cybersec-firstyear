@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yuvraj Chaurasiya — beginner web developer portfolio." />
+  <title>Yuvraj Chaurasiya | Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    (() => {
+      const savedTheme = localStorage.getItem('portfolio-theme');
+      document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Go to homepage">
+      <span class="brand-mark">Y.</span>
+      <span>Yuvraj</span>
+    </a>
+
+    <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="true">
+      <span class="theme-icon" aria-hidden="true">☼</span><span class="theme-label">Light</span>
+    </button>
+
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-navigation">
+      <span></span><span></span>
+    </button>
+
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation" aria-hidden="false">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> First-year developer · currently curious</p>
+        <h1 id="hero-title">Building the web,<br /><em>one bright idea</em><br />at a time.</h1>
+        <p class="hero-text">I'm Yuvraj, a first-year developer who turns “what if?” moments into small, friendly web experiments.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="text-link" href="#contact">Say hello <span>→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal delay-1" aria-label="Decorative developer terminal" role="img">
+        <div class="terminal-window">
+          <div class="terminal-top"><span class="terminal-dots"><i></i><i></i><i></i></span><span>yuvraj@lab:~</span><b>LIVE</b></div>
+          <div class="terminal-body">
+            <p><span class="prompt">➜</span> <span class="command">whoami</span></p>
+            <p class="output">Yuvraj — first-year web explorer</p>
+            <p><span class="prompt">➜</span> <span class="command">skills --show</span></p>
+            <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span></div>
+            <p><span class="prompt">➜</span> <span class="command">status</span></p>
+            <p class="output">Making ideas feel at home on the web.</p>
+            <p><span class="prompt">➜</span><span class="cursor"></span></p>
+          </div>
+        </div>
+        <div class="terminal-note note-one">build mode: ON</div>
+        <div class="terminal-note note-two">ship small. learn loud.</div>
+      </div>
+
+      <a class="scroll-hint" href="#about"><span></span> Scroll to discover</a>
+    </section>
+
+    <section class="about section-shell" id="about" aria-labelledby="about-title">
+      <div class="section-label reveal"><span>01</span> About me</div>
+      <div class="about-content">
+        <h2 class="reveal" id="about-title">One tab for code.<br />Ten more for ideas.</h2>
+        <div class="about-details reveal delay-1">
+          <p>I am at the beginning of my web development journey, exploring how thoughtful design and clean code can turn ordinary tasks into nicer little moments.</p>
+          <p>When I'm not teaching myself a new CSS trick, I am sketching interfaces, solving coding challenges, or asking why a website feels good to use.</p>
+          <div class="quick-facts">
+            <div><span>Currently</span><strong>Learning JavaScript</strong></div>
+            <div><span>Based in</span><strong>India 🇮🇳</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-label reveal"><span>02</span> My toolkit</div>
+      <div class="skills-heading">
+        <h2 class="reveal" id="skills-title">Click, break, fix,<br />repeat — that's the <em>fun part.</em></h2>
+        <p class="reveal delay-1">A small toolkit with a big appetite for learning.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-number">01</span>
+          <div class="skill-icon html-icon">&lt;/&gt;</div>
+          <h3>HTML5</h3>
+          <p>Giving every idea a strong, semantic structure.</p>
+        </article>
+        <article class="skill-card reveal delay-1">
+          <span class="skill-number">02</span>
+          <div class="skill-icon css-icon">✦</div>
+          <h3>CSS3</h3>
+          <p>Creating layouts that look great on every screen.</p>
+        </article>
+        <article class="skill-card reveal delay-2">
+          <span class="skill-number">03</span>
+          <div class="skill-icon js-icon">JS</div>
+          <h3>JavaScript</h3>
+          <p>Adding small interactions that make a big difference.</p>
+        </article>
+        <article class="skill-card reveal delay-3">
+          <span class="skill-number">04</span>
+          <div class="skill-icon design-icon">⌁</div>
+          <h3>UI / UX</h3>
+          <p>Putting people first in every design decision.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-top">
+        <div class="section-label reveal"><span>03</span> Selected work</div>
+        <a class="text-link reveal" href="#contact">View more projects <span>→</span></a>
+      </div>
+      <h2 class="reveal" id="projects-title">Experiments from<br />my <em>learner's lab.</em></h2>
+
+      <div class="projects-list">
+        <article class="project-card reveal">
+          <div class="project-preview preview-taskflow">
+            <div class="mini-app">
+              <div class="mini-sidebar"><b>t.</b><span></span><span></span><span></span></div>
+              <div class="mini-content"><div class="mini-topline"></div><div class="mini-title">My tasks</div><div class="task-row"><i></i><span>Finish landing page</span></div><div class="task-row"><i></i><span>Read 20 pages</span></div><div class="task-row complete"><i>✓</i><span>Plan the week</span></div></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <div><p class="project-type">01 / Productivity</p><h3>Tiny Wins</h3></div>
+            <p class="project-description">A cheerful task tracker that makes everyday goals feel less like chores and more like progress.</p>
+            <div class="project-footer"><span>HTML · CSS · JS</span><a href="#contact" aria-label="Ask about Tiny Wins">↗</a></div>
+          </div>
+        </article>
+
+        <article class="project-card project-card-reverse reveal">
+          <div class="project-preview preview-brew">
+            <div class="coffee-card"><div class="coffee-steam steam-a"></div><div class="coffee-steam steam-b"></div><div class="coffee-cup"><span>☕</span></div><p>GOOD<br />MORNING</p><small>take it slow</small></div>
+          </div>
+          <div class="project-info">
+            <div><p class="project-type">02 / Landing page</p><h3>Chai, Then Code</h3></div>
+            <p class="project-description">A warm, responsive homepage for an imaginary study café where the Wi-Fi is strong and the ideas are stronger.</p>
+            <div class="project-footer"><span>HTML · CSS</span><a href="#contact" aria-label="Ask about Chai, Then Code">↗</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="achievements section-shell" id="achievements" aria-labelledby="achievements-title">
+      <div class="achievements-intro">
+        <div class="section-label reveal"><span>04</span> Milestones</div>
+        <h2 class="reveal" id="achievements-title">Small starts.<br />Unexpected <em>places.</em></h2>
+      </div>
+      <div class="achievement-list">
+        <article class="achievement reveal"><div class="achievement-stamp">01</div><div><p>2025</p><h3>Wrote my first line of HTML</h3></div><span class="achievement-icon">🌱</span></article>
+        <article class="achievement reveal delay-1"><div class="achievement-stamp">02</div><div><p>2025</p><h3>Shipped my first responsive page</h3></div><span class="achievement-icon">💻</span></article>
+        <article class="achievement reveal delay-2"><div class="achievement-stamp">03</div><div><p>2026</p><h3>Made JavaScript do useful things</h3></div><span class="achievement-icon">⚡</span></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner section-shell">
+        <div class="contact-copy reveal">
+          <p class="eyebrow"><span></span> Have a project in mind?</p>
+          <h2 id="contact-title">Let's make<br />something <em>great.</em></h2>
+          <p>Have an idea, opportunity, or simply want to chat about the web? My inbox is always open.</p>
+          <a href="mailto:hello@yuvraj.dev" class="email-link">hello@yuvraj.dev <span>↗</span></a>
+        </div>
+        <form class="contact-form reveal delay-1" id="contact-form" novalidate>
+          <label for="name">Your name<input type="text" id="name" name="name" placeholder="What should I call you?" autocomplete="name" required /></label>
+          <label for="email">Your email<input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required /></label>
+          <label for="message">Your message<textarea id="message" name="message" placeholder="Tell me a little about your idea..." required></textarea></label>
+          <button class="button button-light" type="submit">Send message <span>→</span></button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="brand" href="#top"><span class="brand-mark">Y.</span><span>Yuvraj</span></a>
+    <p>Designed &amp; built with curiosity. © <span id="year"></span></p>
+    <div class="social-links"><a href="#top" aria-label="GitHub profile">Gh</a><a href="#top" aria-label="LinkedIn profile">Li</a><a href="#top" aria-label="Instagram profile">In</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
