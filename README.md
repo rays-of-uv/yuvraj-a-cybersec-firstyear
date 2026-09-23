@@ -33,3 +33,5 @@ A responsive, single-page personal portfolio created for the CodeKrafters SRM 20
 Open the deployed portfolio here:
 
 **[Yuvraj A. Chaurasiya's Personal Portfolio](https://rays-of-uv.github.io/yuvraj-a-cybersec-firstyear/)**
+
+> NOTE: No backend services has been connected so the contact me or Let's talk feature won't work for now.
