@@ -24,7 +24,7 @@ A responsive, single-page personal portfolio created for the CodeKrafters SRM 20
 
 ## Run locally
 
-No build step or installation is required. Open `index.html` in a browser.
+No build step or installation is required. Open `[Github](https://rays-of-uv.github.io/yuvraj-a-cybersec-firstyear/)` in a browser.
 
 ## Before publishing
 
