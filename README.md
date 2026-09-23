@@ -1,6 +1,6 @@
-# Yuvraj's Personal Portfolio
+# Yuvraj A. Chaurasiya's Personal Portfolio
 
-A responsive, single-page personal portfolio created for the CodeKrafters SRM 2026 first-year beginner web-development task.
+A responsive, single-page personal portfolio created for the CodeKrafters SRM 2026 first-year beginner web-development task. It presents Yuvraj A. Chaurasiya as a first-year CSE Cybersecurity student and documents his progression from Class 11 and 12 projects into college-level web development and cybersecurity learning.
 
 ## What it demonstrates
 
@@ -8,7 +8,9 @@ A responsive, single-page personal portfolio created for the CodeKrafters SRM 20
 - Responsive CSS layouts for desktop, tablet, and phone screens
 - Basic JavaScript for the mobile menu, scroll-reveal animations, contact-form validation, and the dynamic footer year
 - UI/UX details including focus states, an accessible mobile navigation menu, labelled form controls, and a skip-to-content link
-- Original visual treatment and copy — no template or component library is used
+- Real project history including CraveCart, Cybersecurity First Year, SMS, Maths Quiz, and the Trigonometry Matching Game beta
+- External links to the Cybersecurity GitHub repository, CodePen projects, and TryHackMe profile
+- Honest project descriptions that distinguish completed work from beta/experimental work
 
 ## Project structure
 
@@ -26,12 +28,10 @@ No build step or installation is required. Open `index.html` in a browser.
 
 ## Before publishing
 
-1. Replace `hello@yuvraj.dev` with your real contact email.
-2. Replace the GitHub, LinkedIn, and Instagram placeholders in the footer with your real profile URLs.
-3. Add real links for completed projects if you have them.
-4. Create a public GitHub repository and push these files with meaningful commits.
-5. Deploy the repository on GitHub Pages, Netlify, or Vercel, then add the live link to your submission.
-6. Record a 60-second walkthrough showing the desktop layout, mobile menu, scroll animations, and form validation.
+1. Confirm the external GitHub, CodePen, and TryHackMe links before publishing.
+2. Create a public GitHub repository and push these files with meaningful commits.
+3. Deploy the repository on GitHub Pages, Netlify, or Vercel, then add the live link to your submission.
+4. Record a 60-second walkthrough showing the desktop layout, mobile menu, scroll animations, theme switcher, and form validation.
 
 ## Test checklist
 

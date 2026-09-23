@@ -58,6 +58,13 @@ menuButton.addEventListener('click', () => {
   navigation.setAttribute('aria-hidden', String(!isOpen));
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && navigation.classList.contains('open')) {
+    closeMenu();
+    menuButton.focus();
+  }
+});
+
 navLinks.forEach((link) => link.addEventListener('click', () => {
   if (mobileMenu.matches) closeMenu();
 }));
