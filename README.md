@@ -1,6 +1,6 @@
 # Yuvraj A. Chaurasiya's Personal Portfolio
 
-A responsive, single-page personal portfolio created for the CodeKrafters SRM 2026 first-year beginner web-development task. It presents Yuvraj A. Chaurasiya as a first-year CSE Cybersecurity student and documents his progression from Class 11 and 12 projects into college-level web development and cybersecurity learning.
+A responsive, single-page [personal portfolio](https://rays-of-uv.github.io/yuvraj-a-cybersec-firstyear/) created for the CodeKrafters SRM 2026 first-year beginner web-development task. It presents Yuvraj A. Chaurasiya as a first-year CSE Cybersecurity student and documents his progression from Class 11 and 12 projects into college-level web development and cybersecurity learning.
 
 ## What it demonstrates
 
