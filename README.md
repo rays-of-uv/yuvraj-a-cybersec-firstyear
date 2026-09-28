@@ -1,6 +1,6 @@
 # Yuvraj A. Chaurasiya's Personal Portfolio
 
-A responsive, single-page personal portfolio created for the first-year beginner web-development. It presents Yuvraj A. Chaurasiya as a first-year CSE Cybersecurity student and documents his progression from Class 11 and 12 projects into college-level web development and cybersecurity learning.
+A responsive, single-page personal portfolio created for the CodeKrafters SRM 2026 first-year beginner web-development task. It presents Yuvraj A. Chaurasiya as a first-year CSE Cybersecurity student and documents his progression from Class 11 and 12 projects into college-level web development and cybersecurity learning.
 
 ## What it demonstrates
 
@@ -28,10 +28,27 @@ A responsive, single-page personal portfolio created for the first-year beginner
 2. Keep `index.html`, `styles.css`, and `script.js` in the same folder.
 3. Open `index.html` in a browser.
 
+No build step or package installation is required.
+
+## Before publishing
+
+1. Confirm the external GitHub, CodePen, and TryHackMe links before publishing.
+2. Create a public GitHub repository and push these files with meaningful commits.
+3. Deploy the repository on GitHub Pages, Netlify, or Vercel, then add the live link to your submission.
+4. Record a 60-second walkthrough showing the desktop layout, mobile menu, scroll animations, theme switcher, and form validation.
+
+## Test checklist
+
+- [x] Navigation anchors point to existing sections
+- [x] Mobile menu opens and closes with correct ARIA state
+- [x] Required-field and invalid-email messages work
+- [x] Valid form feedback is displayed without a page reload
+- [x] Phone-specific layout reduces hero overflow and removes the overlapping scroll cue
+
+> The contact form is frontend-only by design. It validates the message locally but does not send email until a backend or form service is connected.
+
 ## Run this project online
 
 Open the deployed portfolio here:
 
 **[Yuvraj A. Chaurasiya's Personal Portfolio](https://rays-of-uv.github.io/yuvraj-a-cybersec-firstyear/)**
-
-> NOTE: No backend services has been connected so the contact me or Let's talk feature won't work for now.
